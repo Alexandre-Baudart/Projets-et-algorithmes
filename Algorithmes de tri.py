@@ -118,7 +118,7 @@ def tri_fusion(T : List[int]) -> list :
         tri_fusion(T1) 
         tri_fusion(T2) 
 
-        tri_fusion(T1, T2, T)
+        fusion(T1, T2, T)
     return T
 
 
