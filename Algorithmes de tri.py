@@ -115,10 +115,10 @@ def tri_fusion(T : List[int]) -> list :
         T1 = T[:milieu]
         T2 = T[milieu:] 
 
-        merge_sort(T1) 
-        merge_sort(T2) 
+        tri_fusion(T1) 
+        tri_fusion(T2) 
 
-        merge(T1, T2, T)
+        tri_fusion(T1, T2, T)
     return T
 
 
