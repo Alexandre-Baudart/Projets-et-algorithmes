@@ -56,7 +56,7 @@ def tri_insertion(T : list) -> list :
     return : list
     
     """ 
-    for i in range(0,len(T)):
+    for i in range(1,len(T)):
         j = i
         val = T[i]
         while j > 0 and val < T[j-1] :
